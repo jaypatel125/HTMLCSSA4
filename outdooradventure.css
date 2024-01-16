@@ -1,0 +1,233 @@
+/* css file for outdooradventure.html */
+/* Jay Patel, 000881881 */
+ *{
+	margin:0;
+	padding:0;
+} 
+
+body
+	{font-family:sans-serif, Verdana;
+	font-size: 1.25em;
+	}
+
+header
+	{display: grid;
+	grid-template-columns: 1fr 1fr 1fr;}
+
+.btn1
+	{grid-column:1;
+	margin: auto auto auto 15px;}
+
+
+.subscribe, .signin
+	{text-align: center;
+	display: inline-block;
+	background-color:#0172BA;
+	border-radius:15px;
+	padding: 5px 15px 5px 15px;
+	margin-right: 15px;
+	text-decoration: none;
+	color: white;}
+	
+.subscribe:hover
+		{background-color:#089247;
+		text-decoration: none;}
+
+.signin:hover
+		{background-color:#089247;
+		text-decoration: none;}
+
+.logo
+	{grid-column:2;
+	margin: auto;}
+
+.social
+	{grid-column:3;
+	margin: auto;
+	margin: auto 15px auto auto;}
+
+nav a
+	{color:#0172BA;}
+
+.list2
+	{background-color:#ECF7FE;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	padding: 15px 0 15px 0;	
+	position: sticky;
+	top:10px;
+	justify-content:space-between;
+	background-color: #ECF7FE;
+	text-align: center;
+	line-height: 20px;
+	}
+
+.list2 a 
+	{text-decoration: none;
+	margin: 7px auto 7px auto;}
+
+.btn2
+	{display: inline-block;
+	border-radius: 55px;
+	border: 2px solid #0172BA; 	
+	width:7%;
+	text-align: center;
+	padding: 5px;
+	background-color:white;
+	margin: auto auto auto 25px;}
+
+.btn2:hover
+	{background-color:#003557;}
+
+main
+	{display:grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	column-gap:15px;
+	margin: auto 200px auto 200px;}
+
+.h3
+	{background-color:#0172BA;
+	color: white;
+	text-align:center;}
+	
+h3
+	{text-align:center;
+	margin: 15px auto 15px auto;}
+
+.flex1
+	{grid-column:1;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-right: 20px;
+	justify-self:end;
+	}
+
+.img1 
+	{padding-bottom:30px;}
+	
+.hiking
+	{grid-column:2;
+	}
+
+.conoeing
+	{grid-column:3;
+	}
+	
+.trails
+	{background-color:#CEECFE;
+	border:3px solid grey;
+	width:95%;
+	margin: auto 15px 15px 15px;}
+	
+#trailsH3{
+	margin-top: 0em;
+}
+	
+.parks
+	{display: grid;
+	grid-template-columns:1fr 1fr;
+	margin-bottom: 25px;
+	}
+	
+.parkbold
+	{font-weight:bold;
+	padding-left:18px;
+	padding-bottom: 15px;}
+	
+.provincialparks
+	{grid-column:2;
+	border-left: 3px solid grey;
+	padding-left: 5px;
+	}
+	
+.nationalparks
+	{grid-column:1;}
+	
+.provincialparks ul, .nationalparks ul
+	{padding-left:40px;}
+	
+.pimg1
+	{float:right;
+	padding-left: 2px;}
+	
+.pimg2
+	{float:left;
+	padding-right: 10px;}
+	
+.gallery
+	{display:flex;
+	flex-wrap:wrap;
+	margin: 0 150px 0 150px;
+	grid-row: 4;
+	margin:auto 50px auto 80px;
+	}
+	
+.galleryimg
+	{border: 1px solid black;
+	margin: 5px;
+	}
+	
+.canoes li
+	{margin-left: 25px;}
+	
+.credits
+	{border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	grid-column: 1/ span 3;
+	margin: 15px auto 10px auto;
+	}
+	
+.creditshead
+	{text-align: center;
+	margin-bottom:-10px;;
+	font-weight:bold;
+	font-size:0.85em;}
+	
+.creditsp
+	{font-size:0.75em;
+	margin-bottom: -5px;}
+	
+footer
+	{margin: 5px auto 15px auto;
+	background-color:#ECF7FE;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	grid-row-gap: 15px;}
+	
+.ftrhd
+	{font-weight: bold;
+	border-bottom: 1px solid #0172BA;
+	margin-right: 20px;
+	padding-top: 10px;}
+	
+.ftrimg
+	{grid-column:1;
+	padding-top: 10px;
+	}
+	
+.AboutUs, .Reviews
+	{grid-column:2;
+	}
+	
+.Photos, .Travel
+	{grid-column:3;}
+	
+.Shop, .Events
+	{grid-column:4;
+	padding-left: 0.5px;}
+	
+footer ul
+	{list-style-type: none;
+	line-height:1.2em;}	
+
+.Seminars
+	{grid-column:5;}
+	
+p
+{padding-bottom:10px;}
